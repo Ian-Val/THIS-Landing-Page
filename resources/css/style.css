@@ -18,7 +18,7 @@ a {
     text-decoration: none;
     display: inline-block;
     margin: 3px 10px;
-    min-width: 100px;
+    min-width: 80px;
     padding: 10px;
 }
 
@@ -30,7 +30,19 @@ a:hover {
 #logo {
     position: fixed;
     width: 500px;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
 }
 
+@media (max-width: 600px) {
+   
+    a {
+        min-width: 300px;
+    }
+    #logo {
+        width: 200px;
+        bottom: -20px;
+    }
+
+
+}
