@@ -3,9 +3,11 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    
+    background-color: rgb(255, 98, 98);
     font-family: sans-serif;
     font-weight: bold;
+    
 }
 
 nav {
@@ -34,6 +36,29 @@ a:hover {
     left: 0;
 }
 
+#background-texture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content h1 {
+    width: 100%;
+}
+.main-content h2 {
+    width: 100%;
+}
+
+footer p {
+    text-align: right;
+}
 @media (max-width: 600px) {
    
     a {
